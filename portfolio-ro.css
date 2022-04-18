@@ -1,0 +1,154 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    width: 100%;
+    height: auto;
+    color: black;
+    font-family: 'Nunito', sans-serif;
+
+}
+
+nav{
+    width: 100%;
+    height: 90px;
+    display: flex;
+    background-color: white;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-end;
+    position: fixed;
+    z-index: 100px;
+    box-shadow: 0px -5px 43px 3px rgba(0,0,0,0.75);
+    -webkit-box-shadow: 0px -5px 43px 3px rgba(0,0,0,0.75);
+    -moz-box-shadow: 0px -5px 43px 3px rgba(0,0,0,0.75);
+}
+
+nav div{
+    padding: 25px;
+}
+
+.boton{
+    background-color:darksalmon;
+	border-radius:28px;
+	border:1px solid rgb(231, 126, 91);
+	display:inline-block;
+	cursor:pointer; 
+	padding:16px 31px;
+	text-decoration:none;
+    font-weight: bold;
+}
+
+#section1{
+    height: 700px;
+    width: 100%;
+    background-color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.presentacion{
+    width: 30%;
+}
+
+.hola{
+    font-size: 40px;
+}
+
+.rocio{
+    font-size: 70px;
+    color: darksalmon;
+    font-family: 'Satisfy', cursive; 
+}
+
+.imagen1{
+    width: 30%;
+
+}
+#imagen1{
+    height: 400px;
+    width: 100%;
+}
+
+.loquehago{
+    background-color:darksalmon;
+	border-radius:28px;
+	border:1px solid rgb(231, 126, 91);
+	display:inline-block;
+	cursor:pointer; 
+	padding:16px 31px;
+	text-decoration:none;
+    font-weight: bold;
+    margin-top: 3em;
+}
+
+#section2{
+    height: auto;
+    width: 100%;
+    background-color: rgb(228, 227, 227);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.misconocimientos{
+    text-align: center;
+    padding: 5em;
+}
+
+.misconocimientostit{
+    font-size: 45px;
+}
+
+.primeras3{
+    width: 900px;
+    height: 200px;
+    background-color: aqua;
+    margin-top: 20px;
+}
+
+.segundas3{
+    width: 900px;
+    height: 200px;
+    background-color: rgb(0, 255, 55);
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+#mc1{
+    width: 30%;
+    height: 100%;
+
+}
+
+#section3{
+    height: 500px;
+    background-color: rgb(225, 173, 230);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.cita{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+}
+h3{
+    align-self: center;
+}
+
+#section4{
+    height: 1000px;
+    background-color: rgb(230, 226, 173);
+    display: flex; 
+}
+
+#img{
+    width: 30%;
+    height: 50px;
+}
