@@ -12,10 +12,10 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Cookie&family=Grape+Nuts&family=Nunito:wght@200&family=Satisfy&family=Titillium+Web:ital,wght@0,200;0,400;1,200;1,400&display=swap" rel="stylesheet">
     <title>Ejemplo CSS</title>
-    <!-- <style type="text/css">
-    <a:link, a:visited, a:active{
+    <style type="text/css">
+    a:link, a:visited, a:active{
             text-decoration:none;}
-        </style>  -->
+    </style>
     <link rel="icon"type="image/png" sizes="32x32" href="favicon-32x32.png">
 </head>
 <body>
@@ -35,7 +35,7 @@
             <button class="loquehago"><a href="#section4">LO QUE HAGO</a></button>
         </div>    
         <div class="imagen1">
-            <img src="imagen1.png" id="imagen1">
+            <img src="imagenperfil.svg" id="imagen1">
         </div>
     </section>
 
@@ -46,68 +46,69 @@
         </div>
         <div>
             <div class="primeras3">
-                <i class="devicon-html5-plain-wordmark colored" id="mc1"></i>   
-                <i class="devicon-css3-plain-wordmark colored" id="mc1"></i>
-                <i class="devicon-sass-original colored" id="mc1"></i>
+                <div class="icono"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original.svg" id="miscon" /></div> 
+                <div class="icono"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-plain-wordmark.svg" id="miscon" /></div>
+                <div class="icono"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/sass/sass-original.svg" id="miscon"/></div>
             </div>    
             <div class="segundas3">
-                <i class="devicon-javascript-plain colored"></i> 
-                <i class="devicon-react-original-wordmark colored"></i>
-                <i class="devicon-git-plain-wordmark colored"></i>
+                <div class="icono"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-plain.svg" id="miscon" /></div>  
+                <div class="icono"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original-wordmark.svg" id="miscon"/></div> 
+                <div class="icono"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/git/git-plain.svg" id="miscon"/></div> 
             </div>
         </div>
 
     </section>
 
     <section id="section3">
-        <div>
-            <i class="fa-solid fa-quote-right"></i>
-        </div>
+        <div class="comillas"><h1 class="comillasicon"><i class="fa-solid fa-quote-right"></i></h1></div>
         <div class="cita">
             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Iure dignissimos culpa quas exercitationem, placeat voluptatibus harum, itaque, qui eveniet velit atque animi possimus labore voluptas unde neque molestiae! Commodi, doloribus?</p>
-            <h3>Someone</h3>
+            <h3 class="autor">Someone</h3>
         </div>
     </section>
 
     <section id="section4">
-        <div>
-            <h2>Mis proyectos</h2>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Repudiandae voluptates suscipit accusamus, cupiditate omnis iusto facilis voluptatibus obcaecati soluta alias.</p>
+        <div class="misproyectos">
+            <h2 class="misproyectostit">Mis proyectos</h2>
+            <p class="misconocimientostext">Lorem ipsum dolor sit amet consectetur adipisicing elit. Repudiandae voluptates suscipit accusamus, cupiditate omnis iusto facilis voluptatibus obcaecati soluta alias.</p>
         </div>
-        <div>
-            <div>
-               <img src="portfolio.png" id="img">
-               <p>Portfolio</p>
+        <div class="misproyectosimg">
+        <div class="primeros3">
+            <div class="proyecto1">
+                <img src="portfolio.svg" id="img">
+                <p class="proyectostit">Portfolio</p>
             </div>
-            <div>
-                <img src="generador-memes.png" id="img">
-                <p>Generador de memes</p>
+            <div class="proyecto2">
+                <img src="generador-memes.svg" id="img">
+                <p class="proyectostit">Generador de memes</p>
             </div>
-            <div>
-                <img src="match3.png" id="img">
-                <p>Match 3</p>
+            <div class="proyecto3">
+                <img src="match3.svg" id="img">
+                <p class="proyectostit">Match 3</p>
              </div>
         </div>
-        <div>
-            <div>
-               <img src="portfolio.png" id="img">
-               <p>Controlador de gastos</p>
+        <div class="segundos3">
+            <div class="proyecto4">
+               <img src="controladorgastos.svg" id="img">
+               <p class="proyectostit">Controlador de gastos</p>
             </div>
-            <div>
-                <img src="generador-memes.png" id="img">
-                <p>Administrador de reuniones</p>
+            <div class="proyecto5">
+                <img src="admreuniones.svg" id="img">
+                <p class="proyectostit">Administrador de reuniones</p>
             </div>
-            <div>
-                <img src="match3.png" id="img">
-                <p>Todo app</p>
+            <div class="proyecto6">
+                <img src="todoapp.svg" id="img">
+                <p class="proyectostit">Todo app</p>
              </div>
         </div>
-        <div>
-            <div>
-               <img src="portfolio.png" id="img">
-               <p>Buscador de películas</p>
-            </div>
+        <div class="terceros3">
+               <div class="proyecto7">
+                   <img src="buscadorpelis.svg" id="img">
+                   <p class="proyectostit">Buscador de películas</p>
+                </div>   
+        </div>
         </div>
     </section>
+
 </body>
 </html>
