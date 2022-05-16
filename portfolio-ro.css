@@ -185,7 +185,12 @@ header div{
     display: flex;
     justify-content: center;
     align-items: center;
+    flex-direction: column;
     margin-bottom: 5vh;
+}
+.icono-descripcion{
+    font-weight: bolder;
+    padding: 3vh;
 }
 
 .icono:hover{
@@ -478,11 +483,11 @@ input{
     width: 95%;
     border-radius: 20px;
     padding: 3px;
-    outline: none;
+    outline-color: #e9967a;
 }
 
 textarea{
-    outline: none;
+    outline-color: #e9967a;
     background-color: rgb(231, 229, 229);
     border: 1px solid rgb(231, 229, 229);
     width: 95%;
@@ -617,6 +622,11 @@ footer{
 
         .descripcion{
             text-align: center;
+        }
+
+        .icono-descripcion{
+            padding: 1vh;
+            font-size: smaller;
         }
 
         #section5{
